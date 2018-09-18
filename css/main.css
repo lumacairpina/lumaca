@@ -1,6 +1,6 @@
 .slider {
    position: absolute;
-  top: 0;
+  top: -70px;
   left: 0;
   width: 200%;
   height: 100vh;
@@ -15,4 +15,8 @@ body {
 
 .slide {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.navbar-fixed {
+  opacity: 0.5;
 }
