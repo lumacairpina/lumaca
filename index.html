@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="css/main.css">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Lumaca Irpina</title>
+    </head>
+
+    <body>
+     <div class="navbar-fixed">
+        <nav class="white lighten-4">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo black-text text-darken-4" style="Serif">Lumaca Irpina</a>
+              <a href="#" data-target="mobile-nav"class="sidenav-trigger">
+                <i class="material-icons black-text text-darken-4">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down ">
+                <li>
+                  <a class="black-text text-darken-4" href="#home">Home</a>
+                </li>
+                <li>
+                  <a class="black-text text-darken-4" href="#prodotti">Prodotti</a>
+                </li>
+                <li>
+                  <a class="black-text text-darken-4" href="#azienda">Azienda</a>
+                </li>
+                <li>
+                  <a class="black-text text-darken-4" href="#contatti">Contatti</a>
+                </li>
+                
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+         <ul class="sidenav white lighten-4" id="mobile-nav">
+        <li><div class="user-view">
+      <div class="background">
+        <img src="">
+      </div>
+      <a href="#home"><img class="responsive-img" src="img/0.gif"></a>
+
+
+  </li>
+        <li>
+         <a class="black-text text-darken-4" href="#home"><h4>Home</h4> </a>
+        </li>
+        <li>
+          <a class="black-text text-darken-4" href="#prodotti"><h4>Prodotti</h4></a>
+        </li>
+        <li>
+          <a class="black-text text-darken-4" href="#azienda"><h4>Azienda</h4></a>
+        </li>
+        <li>
+          <a class="black-text text-darken-4" href="#contatti"><h4>Contatti</h4></a>
+        </li>
+        
+      </ul>
+
+      <!-- section slider -->
+      <section id="home" class="slider section section-home scrollspy">
+          <ul class="slides">
+            <li>
+              <img src="img/home.jpg">
+              <!-- random image -->
+              <div class="caption center-align">
+                <a class="black-text text-darken-4" href="#services"><h2 class="slide"></h2>
+                </a>
+                <h5 class="black-text text-lighten-3"></h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/occhi.jpg">
+              <!-- random image -->
+              <div class="caption left-align">
+                <h2 class="slide"><a class="black-text text-darken-4" href="#services">Crema viso</a>
+                </h2>
+                <h5 class="black-text text-lighten-1">Combatte le rughe premature con un'azione lifting naturale, riduce i segni di acne, cicatrici, macchie e scottature.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/siero.jpg">
+              <!-- random image -->
+              <div class="caption right-align">
+                <h2 class="slide"><a class="black-text text-darken-4" href="#services">Siero rigenerante</a></h2>
+                <h5 class="black-text text-lighten-3">Il Siero rigenerante alla bava di Lumaca grazie all'azione esfoliante,nutritiva e rigenerante del fluido di lumaca attenua visibilmente</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/occhi.jpg">
+              <!-- random image -->
+              <div class="caption center-align">
+                <h2 class="slide"><a class="black-text text-darken-4" href="#services">Crema contorno occhi</a></h2>
+                <h5 class="black-text text-lighten-3">Ricca di ingredienti Rivitalizzanti e Rassodanti
+                  Favorisce i processi riparativi della zona perioculare, proteggendo la pelle dal prematuro invecchiamento
+                  </h5>
+              </div>
+            </li>
+          </ul>
+
+    </section>
+
+      
+
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <script>
+      //sidenav
+      const sideNav = document.querySelector('.sidenav');
+      M.Sidenav.init(sideNav, {});
+
+      //slider
+      const slider = document.querySelector('.slider');
+      M.Slider.init(slider, {
+        indicators: false,
+        height: 600,
+        transition: 500,
+        interval: 6000
+      });
+
+      //materialboxed
+      const mb = document.querySelectorAll('.materialboxed');
+      M.Materialbox.init(mb, {});
+
+      //scrollspy
+      const ss = document.querySelectorAll('.scrollspy');
+      M.ScrollSpy.init(ss, {});
+
+      //collapsible
+      const elems = document.querySelectorAll('.collapsible');
+      const instances = M.Collapsible.init(elems, {});
+
+      //carousel
+      const caro = document.querySelectorAll('.carousel');
+      const inst = M.Carousel.init(caro, {});
+
+    </script>
+      </body>
+  </html>
