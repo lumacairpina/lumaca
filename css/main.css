@@ -1,6 +1,6 @@
 .slider {
    position: absolute;
-  top: -70px;
+  
   left: 0;
   width: 200%;
   height: 100vh;
@@ -18,5 +18,9 @@ body {
 }
 
 .navbar-fixed {
+  opacity: 0.5;
+}
+
+.navio {
   opacity: 0.5;
 }
