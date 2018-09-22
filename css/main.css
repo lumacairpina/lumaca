@@ -95,8 +95,3 @@ footer {
   max-width: 300px;
 }
 
-@media (max-width: 768px) {
-  .landing-text h1 {
-    font-size: 300%;
-  }
-}
