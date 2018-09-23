@@ -1,0 +1,104 @@
+.slider {
+   position: absolute;
+  
+  left: 0;
+  width: 200%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+
+
+.navbar {
+  font-family: 'Dancing Script';
+  
+}
+
+
+
+.navio {
+  
+  opacity: 0,5;
+}
+
+.navio:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ima{
+  top: -20px;
+}
+
+.paddin img {
+  width: 100%;
+}
+
+
+
+.prodotti {
+  background: #f5f5f0;
+ }
+
+
+#fixom {
+  background: url(../img/4-min.jpg) no-repeat center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  
+}
+
+#fixam {
+  background: url(../img/16-min.jpg) no-repeat center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  
+}
+#fixim {
+  background: url(../img/18-min.jpg) no-repeat center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  
+}
+
+footer {
+  width: 100%;
+  background-color: #d9d9d9;
+  padding: 5% 5% 10% 5%;
+  color: #fff;
+}
+
+.fofo {
+  color: black;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 100px; 
+}
+
+.fa:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon {
+  max-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 300%;
+  }
+}
