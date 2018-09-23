@@ -7,20 +7,15 @@
   overflow: hidden;
 }
 
-body {
-  font-family: 'Dancing Script';
- /* font-family: 'Noto+Serif'; */
-  font-size: 17px;
-}
 
-.slide {
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-}
+
+
 
 .navbar {
   font-family: 'Dancing Script';
-  font-size: 20px;
+  
 }
+
 
 
 .navio {
@@ -100,3 +95,8 @@ footer {
   max-width: 300px;
 }
 
+@media (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 300%;
+  }
+}
